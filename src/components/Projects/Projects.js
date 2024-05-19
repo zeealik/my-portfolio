@@ -4,6 +4,7 @@ import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 import TecGYM from '../../Assets/Projects/tecgym.png';
 import Striver from '../../Assets/Projects/striver.png';
+import goNDA from '../../Assets/Projects/gonda.png';
 import UsmaniaAndSons from '../../Assets/Projects/usmania-and-sons.png';
 
 function Projects() {
@@ -23,11 +24,11 @@ function Projects() {
 				>
 					<Col className='project-card'>
 						<ProjectCard
-							imgPath={TecGYM}
+							imgPath={Striver}
 							isBlog={false}
-							title='TECGYM'
-							description="It streamlines Gym and fitness centers management you can have control in the palm of your hand with “24/7 Mobile Monitoring”, When the dues are due, we've got your back with friendly reminders through our “whatsapp and sms services”, and much more!"
-							demoLink='http://tecfolk.com/Projects/Tecgym.html'
+							title='Striver'
+							description='Striver is an abuse-free social media platform, created by soccer players for fans.'
+							demoLink='https://apps.apple.com/us/app/striver-made-for-fans/id1641365765'
 						/>
 					</Col>
 					<Col className='project-card'>
@@ -46,11 +47,21 @@ function Projects() {
 				>
 					<Col className='project-card'>
 						<ProjectCard
-							imgPath={Striver}
+							imgPath={TecGYM}
 							isBlog={false}
-							title='Striver'
-							description='Striver is an abuse-free social media platform, created by soccer players for fans.'
-							demoLink='https://apps.apple.com/us/app/striver-made-for-fans/id1641365765'
+							title='TECGYM'
+							description="It streamlines Gym and fitness centers management you can have control in the palm of your hand with “24/7 Mobile Monitoring”, When the dues are due, we've got your back with friendly reminders through our “whatsapp and sms services”, and much more!"
+							demoLink='http://tecfolk.com/Projects/Tecgym.html'
+						/>
+					</Col>
+
+					<Col className='project-card'>
+						<ProjectCard
+							imgPath={goNDA}
+							isBlog={false}
+							title='goNDA'
+							description='goNDA is self-service legal support. Legal services as is, are expensive and can be time-consuming. So, for most of us striving to start businesses and protect our families, we appreciate cost-efficiency. goNDA ensures affordability and real-time resolution.'
+							demoLink='https://getgonda.com/'
 						/>
 					</Col>
 				</Row>

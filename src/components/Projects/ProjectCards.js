@@ -2,7 +2,6 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { CgWebsite } from 'react-icons/cg';
-import { BsGithub } from 'react-icons/bs';
 
 function ProjectCards(props) {
 	return (
@@ -25,9 +24,6 @@ function ProjectCards(props) {
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button> */}
-				{'\n'}
-				{'\n'}
-
 				{/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
 				{!props.isBlog && props.demoLink && (
