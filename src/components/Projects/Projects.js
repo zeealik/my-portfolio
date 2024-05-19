@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 import TecGYM from '../../Assets/Projects/tecgym.png';
+import Striver from '../../Assets/Projects/striver.png';
 import UsmaniaAndSons from '../../Assets/Projects/usmania-and-sons.png';
 
 function Projects() {
@@ -36,6 +37,20 @@ function Projects() {
 							title='Usmania & Sons'
 							description='Leading real state management tool for all kind of properties'
 							demoLink='https://usmaniaandsons.com/login-signup'
+						/>
+					</Col>
+				</Row>
+				<Row
+					style={{ justifyContent: 'center', paddingBottom: '10px' }}
+					className='row-cols-1 row-cols-md-2 row-cols-lg-2 g-4'
+				>
+					<Col className='project-card'>
+						<ProjectCard
+							imgPath={Striver}
+							isBlog={false}
+							title='Striver'
+							description='Striver is an abuse-free social media platform, created by soccer players for fans.'
+							demoLink='https://apps.apple.com/us/app/striver-made-for-fans/id1641365765'
 						/>
 					</Col>
 				</Row>
