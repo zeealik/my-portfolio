@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import myImg from '../../Assets/avatar.svg';
+import myImg from '../../Assets/zeeshan-pfp.png';
 import Tilt from 'react-parallax-tilt';
 import {
 	AiFillGithub,
@@ -22,23 +22,22 @@ function Home2() {
 							I fell in love with programming and I have at least learnt
 							something, I think… 🤷‍♂️
 							<br />
-							<br />I am fluent in Javascript frameworks like
+							<br />I am a frontend engineer with expertise in
 							<i>
-								<b className='purple'> React, React Native. </b>
+								<b className='purple'> React and React Native. </b>
+							</i>
+							<br />
+							<br />I can also work on the backend using{' '}
+							<b className='purple'>Node.js</b> and consider myself a
+							<i>
+								<b className='purple'> MERN stack developer. </b>
 							</i>
 							<br />
 							<br />
-							Whenever possible, I also apply my passion for developing products
-							with <b className='purple'>Node.js</b> and
+							Whenever possible, I apply my passion for developing products with
+							modern JavaScript libraries and frameworks like
 							<i>
-								<b className='purple'>
-									{' '}
-									Modern Javascript Library and Frameworks
-								</b>
-							</i>
-							&nbsp; like
-							<i>
-								<b className='purple'> React.js and Next.js</b>
+								<b className='purple'> React.js and Next.js.</b>
 							</i>
 						</p>
 					</Col>
@@ -60,7 +59,7 @@ function Home2() {
 									href='https://github.com/zeealik'
 									target='_blank'
 									rel='noreferrer'
-									className='icon-colour  home-social-icons'
+									className='icon-colour home-social-icons'
 								>
 									<AiFillGithub />
 								</a>
@@ -70,7 +69,7 @@ function Home2() {
 									href='https://twitter.com/zkykhan'
 									target='_blank'
 									rel='noreferrer'
-									className='icon-colour  home-social-icons'
+									className='icon-colour home-social-icons'
 								>
 									<AiOutlineTwitter />
 								</a>
@@ -80,7 +79,7 @@ function Home2() {
 									href='https://www.linkedin.com/in/zkykhan/'
 									target='_blank'
 									rel='noreferrer'
-									className='icon-colour  home-social-icons'
+									className='icon-colour home-social-icons'
 								>
 									<FaLinkedinIn />
 								</a>

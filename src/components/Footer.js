@@ -12,14 +12,14 @@ function Footer() {
 	let year = date.getFullYear();
 	return (
 		<Container fluid className='footer'>
-			<Row>
+			<Row className='justify-content-center'>
 				{/* <Col md='4' className='footer-copywright'>
 					{/* <h3>Designed and Developed by Zeeshan Ali Khan</h3> */}
-				{/* </Col> */} 
-				<Col md='10' className='footer-copywright'>
+				{/* </Col> */}
+				{/* <Col md='10' className='footer-copywright'>
 					<h3>Copyright © {year} ZA</h3>
-				</Col>
-				<Col md='2' className='footer-body'>
+				</Col> */}
+				<Col md='auto' className='footer-body'>
 					<ul className='footer-icons'>
 						<li className='social-icons'>
 							<a
